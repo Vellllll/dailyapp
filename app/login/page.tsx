@@ -1,3 +1,5 @@
+import Button from "../components/button";
+
 export default function Login() {
     return (
         <div className="bg-white h-screen">
@@ -10,12 +12,16 @@ export default function Login() {
                     <p className="font-light mb-5 text-lime-900">Please login to access features!</p>
                     <div className="mb-5 mx-auto">
                         <label htmlFor="username" className="block font-semibold mb-2 text-lime-900">Username</label>
-                        <input type="text" className="p-2 rounded-md bg-white w-full" />
+                        <input type="text" className="p-2 rounded-md bg-white w-full" placeholder="Username" />
                     </div>
                     <div className="mb-5 mx-auto">
                         <label htmlFor="username" className="block font-semibold mb-2 text-lime-900">Password</label>
-                        <input type="password" className="p-2 rounded-md bg-white w-full" />
-                </div>
+                        <input type="password" className="p-2 rounded-md bg-white w-full" placeholder="Password" />
+                    </div>
+                    <Button buttonName="Login"></Button>
+                    <p className="text-sm text-lime-900 text-center mt-3">
+                        <a href="/register">Register here!</a>
+                    </p>
                 </div>
             </div>
         </div>
