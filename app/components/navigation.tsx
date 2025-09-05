@@ -22,7 +22,7 @@ export default function Navigation() {
             <div className={`w-full px-5 ${isOpen ? "block" : "hidden"} md:block`} id="navbar-default">
                 <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 bg-lime-200">
                     <li>
-                        <a href="#" className="block py-2 px-3 text-white bg-lime-900 rounded-sm" aria-current="page">Home</a>
+                        <a href="/" className="block py-2 px-3 text-white bg-lime-900 rounded-sm" aria-current="page">To do list</a>
                     </li>
                     <li>
                         <a href="#" className="block py-2 px-3 text-lime-900 rounded-sm">About</a>
